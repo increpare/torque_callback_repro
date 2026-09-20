@@ -1,0 +1,26 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Threaded physics torque callback reproduction"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.6")
+run/flush_stdout_on_print=true
+
+[physics]
+
+3d/run_on_separate_thread=true
+2d/physics_engine="Dummy"
+3d/physics_engine="GodotPhysics3D"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"

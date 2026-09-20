@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://df77egdq1f13a"]
+
+[ext_resource type="Script" uid="uid://i6gdrfq2uud2" path="res://main.gd" id="1"]
+
+[node name="TorqueCallbackReproduction" type="Node3D" unique_id=904397176]
+script = ExtResource("1")
