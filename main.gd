@@ -6,24 +6,24 @@ extends Node3D
 # test runs 
 
 # v4.7.2 DIRECT_STATE=false, multithreaded physics=true:
-# run 1: frame 14300
-# run 2: frame 4500
-# run 3: frame 100
+# run 1: frame ~14300
+# run 2: frame ~4500
+# run 3: frame ~100
 
 # v4.7.2 DIRECT_STATE=true, multithreaded physics=false
 # run 1: reached FRAME_LIMIT without stall
 # run 2:  reached FRAME_LIMIT without stall
 # run 3: reached FRAME_LIMIT without stall
 
-# v4.7.2  direct_state=false, multithreaded physics=true
+# v4.7.2  direct_state=false, multithreaded physics=false
 #1 reached FRAME_LIMIT without stall
 #2 reached FRAME_LIMIT without stall
 #3 reached FRAME_LIMIT without stall
 
-# 4.6.stable
-#1 DIRECT_STATE false, multithreaded true
-#2 DIRECT_STATE false, multithreaded true
-#3 DIRECT_STATE false, multithreaded true
+# 4.6.stable  DIRECT_STATE false, multithreaded true
+#1 reached FRAME_LIMIT without stall
+#2 reached FRAME_LIMIT without stall
+#3 reached FRAME_LIMIT without stall
 
 const DIRECT_STATE := false
 
